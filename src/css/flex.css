@@ -1,0 +1,66 @@
+﻿body {
+    display: flex;
+    flex-direction: column;
+}
+
+header, .main, footer {
+    display: flex;
+    width: 100%;
+}
+
+article {
+    max-width: 20%;
+    flex: 0.5;
+}
+
+header div {
+    flex-direction: row-reverse;
+}
+
+.main {
+    flex: 0.8;
+    justify-content: space-between;
+}
+
+header, footer {
+    flex: 0.1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div, footer div {
+    flex: 0.2;
+    display: flex;
+}
+
+.column-row {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+
+.left, .right {
+    flex: 1;
+    max-width: 43%;
+}
+
+.column {
+    max-width: 47%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+nav {
+    width: 20%;
+}
+
+.column-header {
+    flex: 0.2;
+}
+
+.img-wrap {
+    display: flex;
+    justify-content: center;
+}
