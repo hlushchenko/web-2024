@@ -27,8 +27,12 @@ ol, ul {
 }
 
 
-nav a:link, nav a:visited {
+nav a:link {
     color: white;
+}
+
+nav a:visited {
+    color: lightgray;
 }
 
 article a:link, article a:visited {

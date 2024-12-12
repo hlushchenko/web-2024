@@ -1,0 +1,95 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+td {
+    padding: 0.67em;
+}
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.header{
+    height: 10vh;
+    background-color: darkgray;
+}
+
+.insert {
+    width: 20%;
+}
+
+.insert p{
+    background-color: white;
+    padding: 0.67em;
+    margin-left: 0.67em;
+    margin-right: 0.67em;
+
+}
+
+.header td{
+    text-align: right;
+}
+
+.main{
+    min-height: 80vh;
+
+}
+
+.main td {
+    width: 10vw;
+    vertical-align: top;
+}
+
+.main-header {
+    height: 10%;
+}
+
+.spacer {
+    width: 2vw !important;
+}
+
+.nav{
+    background-color: dimgray;
+}
+
+.article{
+    background-color: lightgray;
+}
+
+.column-header {
+    background-color: lightgray;
+}
+
+.column-left, .column-right {
+    background-color: dimgray;
+}
+
+ol, ul {
+    padding: 1em;
+}
+
+.footer {
+    height: 10vh;
+    background-color: darkgray;
+}
+
+
+.nav a:link {
+    color: white;
+}
+
+.nav a:visited {
+    color: lightgray;
+}
+
+img {
+    width: min(100%, 30em);
+    height: auto;
+}
