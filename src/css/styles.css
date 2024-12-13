@@ -10,7 +10,7 @@ body {
 }
 
 .column-header, header div, footer div, nav, article, .left, .right, header, footer {
-    padding: 0.67em;
+    padding: 0.67rem;
 }
 
 .map-img {
@@ -23,7 +23,7 @@ img {
 }
 
 ol, ul {
-    padding: 1em;
+    padding: 1rem;
 }
 
 
@@ -48,7 +48,7 @@ header, footer{
 }
 
 header div, footer div {
-    margin: 0.67em;
+    margin: 0.67rem;
 }
 
 nav {
