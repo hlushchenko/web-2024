@@ -52,7 +52,7 @@ body {
     justify-content: space-between;
     min-height: 100vh;
     height: auto;
-    background-image: url("../img/background.webp");
+    background-image: url("https://lab4.hlushchenko.pp.ua/img/background.webp");
     background-color: rgba(80, 40, 0, .5);
     background-blend-mode: multiply;
     background-size: cover;
@@ -84,7 +84,8 @@ footer {
     display: flex;
     align-items: center;
     height: 100%;
-    justify-content: space-between;
+    justify-content: start;
+    flex-wrap: wrap;
 }
 
 .center-container {
@@ -167,7 +168,7 @@ footer p {
 }
 
 .icon-shmol {
-    height: 2em;
+    height: 3em;
 }
 
 
@@ -190,6 +191,7 @@ footer p {
 
 header button {
     height: 100%;
+
     background: none;
     border: none;
     cursor: pointer;
@@ -205,6 +207,7 @@ main {
 }
 
 .burger-button {
+    margin-top: 1em;
     padding: 0.2em 0.2em 0 0.2em;
     border-radius: 100%;
 }
@@ -281,4 +284,32 @@ main {
 
 .card button:hover {
     background-color: var(--color-primary-darken);
+}
+.links-list {
+    display: none;
+}
+
+@media only screen and (min-width: 992px) {
+    .burger-button {
+        margin: 0;
+    }
+    .icon-shmol {
+        height: 3em;
+    }
+
+
+    .links-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+
+    .links-list a {
+        margin: 1em;
+        text-decoration: none;
+        cursor: pointer;
+    }
 }
