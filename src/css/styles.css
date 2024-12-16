@@ -1,9 +1,9 @@
 :root {
     --color-surface: #f0f0f0;
     --color-background: #2e2c2c;
-    --color-primary: #e5244f;
+    --color-primary: #cb1a0c;
     --color-secondary: #9a9a9a;
-    --color-primary-darken: #c41f45;
+    --color-primary-darken: #951e15;
 }
 
 * {
