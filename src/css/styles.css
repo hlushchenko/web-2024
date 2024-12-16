@@ -285,6 +285,7 @@ main {
 .card button:hover {
     background-color: var(--color-primary-darken);
 }
+
 .links-list {
     display: none;
 }
@@ -311,5 +312,9 @@ main {
         margin: 1em;
         text-decoration: none;
         cursor: pointer;
+    }
+
+    .links-list a p:hover {
+        color: var(--color-primary);
     }
 }
